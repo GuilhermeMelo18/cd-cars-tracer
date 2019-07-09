@@ -1,0 +1,3 @@
+# Module tbookmarksrs
+# RPC service class, partial path of RPC policy file
+br.cin.tbookmarks.client.ResultsEvalService, 0E2ECEE4C546C992841081E176F53A76.gwt.rpc

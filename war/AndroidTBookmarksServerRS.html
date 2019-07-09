@@ -1,0 +1,91 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<meta name ="viewport" content = "width=max-device-width, user-scalable = no">
+
+<!--                                                               -->
+<!-- Consider inlining CSS to reduce the number of requested files -->
+<!--                                                               -->
+<link type="text/css" rel="stylesheet" href="AndroidTBookmarksServerRS.css">
+
+<!--                                           -->
+<!-- Any title is fine                         -->
+<!--                                           -->
+<title>T-Bookmarks</title>
+
+<!--                                           -->
+<!-- This script loads your compiled module.   -->
+<!-- If you add any GWT meta tags, they must   -->
+<!-- be added before this line.                -->
+<!--                                           -->
+<script type="text/javascript" language="javascript"
+	src="tbookmarksservergae/tbookmarksserverrs.nocache.js"></script>
+</head>
+
+<!--                                           -->
+<!-- The body can have arbitrary html, or      -->
+<!-- you can leave the body empty if you want  -->
+<!-- to create a completely dynamic UI.        -->
+<!--                                           -->
+<body>
+
+	<!-- OPTIONAL: include this if you want history support -->
+	<iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1'
+		style="position: absolute; width: 0; height: 0; border: 0"></iframe>
+
+	<!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+	<noscript>
+		<div
+			style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+			Your web browser must have JavaScript enabled in order for this
+			application to display correctly.</div>
+	</noscript>
+	
+	<!-- <h6 style="font-size: 32pt;width:100%;display: inline;margin-left: 23%;" >
+		Welcome3 to T-Bookmarks! <img alt="T-Bookmarks logo"
+			src="/images/tbookmarksLogo.png" width="10%" height="10%"/>
+	</h6> -->
+
+	<table align="center">
+		<tr>
+			<td class="welcomeMessage">Welcome to T-Bookmarks!</td>
+			<td ><img alt="T-Bookmarks logo"
+			src="/images/tbookmarksLogo.png" width="25%" height="25%"/></td>
+		</tr>
+		<tr>
+			<td id="fieldMessage" colspan="2"></td>
+		</tr>
+		<tr>
+			<td id="nameFieldContainer"></td>
+			<td id="sendButtonContainer"></td>
+		</tr>
+		<tr>
+			<td colspan="2" style="color: red;" id="errorLabelContainer"></td>
+		</tr>
+		<!-- <tr>
+
+			<td id="resultsCurrent"></td>
+			<td id="resultsHistory"></td>
+
+		</tr> -->
+
+	</table>
+
+
+	<div id="resultsCurrent">
+		
+	</div>
+	<div id="resultsHistory" >
+		
+	</div>
+
+
+</body>
+</html>

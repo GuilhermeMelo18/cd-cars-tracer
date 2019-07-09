@@ -1,0 +1,2 @@
+serviceClass: br.cin.tbookmarks.client.ResultsEvalService
+path: 0E2ECEE4C546C992841081E176F53A76.gwt.rpc
